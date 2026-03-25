@@ -1,38 +1,38 @@
-# EX 10 C program for finding the factorial of a given number using function without return type with arguments.
+# EX 6 C Program to print the string "PLACEMENT" n number of times.
 ## DATE:
 ## AIM:
-To write a C program for finding the factorial of a given number using function without return type with arguments.
+To write a C Program to print the string "PLACEMENT" n number of times.
 
 ## Algorithm
 
-1.Start the program and declare required variables (number and result).
+1.Start the program and declare a variable n.
 
-2.Read the input number from the user.
+2.Read the value of n (number of times to print) from the user.
 
-3.Call a function (e.g., factorial(n)) and pass the number as an argument.
+3.Initialize a loop counter (e.g., i = 1).
 
-4.Inside the function, initialize a variable (fact = 1) and use a loop to multiply numbers from 1 to   n to calculate the factorial.
+4.Use a loop to print the string "PLACEMENT" while i ≤ n, incrementing i each time.
 
-5.Display the factorial result inside the function and end the program.  
+5.Stop the program after printing the string n times.   
 
 ## Program:
 ```c
 #include<stdio.h>
 int main()
 {
-    int a,s=1;
-    scanf("%d",&a);
-    for(int i=1;i<=a;i++)
+    int n,i=1;
+    scanf("%d",&n);
+    while(i<=n)
     {
-        s=s*i;
+        printf("PLACEMENT\n");
+        i++;
     }
-    printf("Factorial value is: %d",s);
 }
 ```
 
 ## Output:
 
-<img width="709" height="159" alt="Screenshot 2026-03-19 130528" src="https://github.com/user-attachments/assets/a8ef931c-65c4-4d7e-8a67-aa03591b51a3" />
+<img width="447" height="158" alt="image" src="https://github.com/user-attachments/assets/96c82330-de50-4ef4-809e-f5b5318bddfb" />
 
 
 ## Result:
